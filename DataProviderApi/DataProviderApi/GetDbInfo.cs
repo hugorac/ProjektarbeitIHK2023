@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DataProviderApi {
     public class GetDbInfo {
-        private string connectionString;
+        private string connectionString = @"EU51SQLQ005\DEQUAL01;Database={dbName};Integrated Security=true;";
         private string tableName;
-        public GetDbInfo(string connectionString) {
-            this.connectionString = connectionString;
+        public GetDbInfo() {
+            
         }
         public string GetTableScheme(string tableName) {
             StringBuilder insertScript = new StringBuilder();

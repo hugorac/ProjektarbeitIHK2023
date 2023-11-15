@@ -5,7 +5,7 @@ namespace DataProviderApi.Controllers {
         [Route("api/[controller]")]
         [HttpGet]
         public IActionResult GetData(string dbName, string tableName) {
-            GetDbInfo getDbInfo = new GetDbInfo("connectionString");
+            GetDbInfo getDbInfo = new GetDbInfo();
             string result = $"USE {dbName}\n{getDbInfo.GetTableScheme(tableName)}\n{getDbInfo.GetTableItems(tableName)}";
             return Ok(result);
         }
