@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPTIsnDtqUL2CVRdth95SHLuMvHPzeR8I9EtzhFf6ww253PGvtTdHu48BFmypcQMyswGDjJmeg/V5vpGkUL7Aw==",
+  "dgSpecHash": "qXIKIVKpPd/KZpB0ryjaa/y7XU7m9Nf3BuinG6XH99GCUSn3xjcTCjfjFq8J5uf28oPq/VRwNKkc+FyCQdbcxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\M8LN\\Documents\\AbschlussprojektIHK2023\\ProjektarbeitIHK2023\\DataProviderApi\\DataProviderApi\\DataProviderApi.csproj",
+  "projectFilePath": "C:\\Users\\M8LN\\Desktop\\AbschlussprojektIHK2023\\ProjektarbeitIHK2023\\DataProviderApi\\DataProviderApi\\DataProviderApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M8LN\\.nuget\\packages\\flurl\\3.0.7\\flurl.3.0.7.nupkg.sha512",
     "C:\\Users\\M8LN\\.nuget\\packages\\flurl.http\\3.2.4\\flurl.http.3.2.4.nupkg.sha512",
@@ -12,9 +12,9 @@
     "C:\\Users\\M8LN\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\M8LN\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\M8LN\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
-    "C:\\Users\\M8LN\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\M8LN\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\M8LN\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\M8LN\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\M8LN\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\M8LN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
