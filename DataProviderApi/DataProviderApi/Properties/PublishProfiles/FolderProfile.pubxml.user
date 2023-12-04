@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\M8LN\Desktop\AbschlussprojektIHK2023\ProjektarbeitIHK2023\DataProviderApi\DataProviderApi\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-11-17T14:57:00.0905187Z;True|2023-11-17T15:54:03.3575901+01:00;True|2023-11-17T15:46:41.4553123+01:00;True|2023-11-17T15:38:47.7916178+01:00;True|2023-11-17T15:23:48.0875284+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

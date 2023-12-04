@@ -65,12 +65,6 @@ namespace DataProviderApi {
 
                             insertScript.Append($"INSERT INTO {tableName} ");
 
-                            //foreach (DataColumn column in dataTable.Columns) {
-                            //    string columnName = column.ColumnName;
-                            //    insertScript.Append($"{columnName}, ");
-                            //}
-
-                            insertScript.Length -= 2; //Deletes last comma and space
                             insertScript.AppendLine(" VALUES ");
 
                             foreach (DataRow row in dataTable.Rows) {
@@ -87,7 +81,7 @@ namespace DataProviderApi {
                                 insertScript.AppendLine("),");
                             }
 
-                            insertScript.Length -= 3; //Deletes last comma and new line
+                            insertScript.Length -= 3; //Deletes last comma 
                             insertScript.AppendLine(";");
                         }
                     }

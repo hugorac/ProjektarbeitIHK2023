@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YbPHFiooVv9fuEMtZi0oIypsmOjp9QZiTWsNYovnHJU=",
+  "Source": "DataProviderApi",
+  "BasePath": "_content/DataProviderApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
