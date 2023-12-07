@@ -14,6 +14,10 @@ namespace GetYourDbData {
             EnteredTableNames = new ObservableCollection<string>();
         }
 
+<<<<<<< HEAD
+        //Event, if pressing enter the table input will be added to a list
+=======
+>>>>>>> 0c7ff387b44cf79240bf6a1e0f7f950065ab5d63
         private void tableNameTextBox_KeyUp(object sender, System.Windows.Input.KeyEventArgs e) {
             if (e.Key == System.Windows.Input.Key.Enter) {
                 string newEntry = tableNameTextBox.Text.Trim();
