@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SO84obJB2Ge5+1HtE4fTY/H7zUtRGI1XeeOwDWtntibZnVCxwAeVLe5B9jfU7LX64CHWn7FXhziltPbjVjj3Eg==",
+  "dgSpecHash": "a9gly5zCdSi2PXlaETrMr+qkY6Sli91M6mGXouCZHRRtVR3oTJo8pxFKFQaaCgovvi8/82uNjIUesdkawQgzyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\M8LN\\Documents\\AbschlussprojektIHK2023\\ProjektarbeitIHK2023\\GetYourDbData\\GetYourDbData\\GetYourDbData.csproj",
   "expectedPackageFiles": [
@@ -19,12 +19,5 @@
     "C:\\Users\\M8LN\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\M8LN\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\M8LN\\Documents\\AbschlussprojektIHK2023\\ProjektarbeitIHK2023\\GetYourDbData\\GetYourDbData\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

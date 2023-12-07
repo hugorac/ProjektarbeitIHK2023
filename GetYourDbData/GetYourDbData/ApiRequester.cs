@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Flurl;
 
 namespace GetYourDbData {
-<<<<<<< HEAD
     public class ApiRequester {
         //This method will do a request to the API
         public async Task<string> GetSqlScript(string dbName, List<string> tableNames) {
@@ -21,12 +20,5 @@ namespace GetYourDbData {
             var response = await client.GetAsync(uri).ConfigureAwait(false);
             return await response.Content.ReadAsStringAsync().ConfigureAwait(false);
         }
-        
-=======
-    internal class ApiRequester {
-        public string GetSqlScript(string dbName, string tableName) {
-            return "sdss";
-        }
->>>>>>> 0c7ff387b44cf79240bf6a1e0f7f950065ab5d63
     }
 }

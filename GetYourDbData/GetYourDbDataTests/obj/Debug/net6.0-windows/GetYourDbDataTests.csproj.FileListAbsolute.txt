@@ -1,0 +1,6 @@
+C:\Users\M8LN\Documents\AbschlussprojektIHK2023\ProjektarbeitIHK2023\GetYourDbData\GetYourDbDataTests\bin\Debug\net6.0-windows\CoverletSourceRootsMapping
+C:\Users\M8LN\Documents\AbschlussprojektIHK2023\ProjektarbeitIHK2023\GetYourDbData\GetYourDbDataTests\obj\Debug\net6.0-windows\GetYourDbDataTests.csproj.AssemblyReference.cache
+C:\Users\M8LN\Documents\AbschlussprojektIHK2023\ProjektarbeitIHK2023\GetYourDbData\GetYourDbDataTests\obj\Debug\net6.0-windows\GetYourDbDataTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\M8LN\Documents\AbschlussprojektIHK2023\ProjektarbeitIHK2023\GetYourDbData\GetYourDbDataTests\obj\Debug\net6.0-windows\GetYourDbDataTests.AssemblyInfoInputs.cache
+C:\Users\M8LN\Documents\AbschlussprojektIHK2023\ProjektarbeitIHK2023\GetYourDbData\GetYourDbDataTests\obj\Debug\net6.0-windows\GetYourDbDataTests.AssemblyInfo.cs
+C:\Users\M8LN\Documents\AbschlussprojektIHK2023\ProjektarbeitIHK2023\GetYourDbData\GetYourDbDataTests\obj\Debug\net6.0-windows\GetYourDbDataTests.csproj.CoreCompileInputs.cache

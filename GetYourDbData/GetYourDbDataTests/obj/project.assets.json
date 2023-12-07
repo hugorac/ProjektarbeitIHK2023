@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net6.0-windows7.0": {
       "coverlet.collector/3.1.0": {
         "type": "package",
         "build": {
@@ -543,7 +543,10 @@
         },
         "runtime": {
           "bin/placeholder/GetYourDbData.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -1828,7 +1831,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net6.0-windows7.0": [
       "GetYourDbData >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
@@ -1859,7 +1862,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -1867,8 +1870,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "projectReferences": {
             "C:\\Users\\M8LN\\Documents\\AbschlussprojektIHK2023\\ProjektarbeitIHK2023\\GetYourDbData\\GetYourDbData\\GetYourDbData.csproj": {
               "projectPath": "C:\\Users\\M8LN\\Documents\\AbschlussprojektIHK2023\\ProjektarbeitIHK2023\\GetYourDbData\\GetYourDbData\\GetYourDbData.csproj"
@@ -1883,8 +1886,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
