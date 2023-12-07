@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Flurl;
+using System.Net.Http;
 
 namespace GetYourDbData {
     public class ApiRequester {
