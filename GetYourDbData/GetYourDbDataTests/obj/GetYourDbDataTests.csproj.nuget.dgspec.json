@@ -61,10 +61,6 @@
               "target": "Package",
               "version": "[4.0.0, )"
             },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.5, )"
-            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -130,13 +126,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
-            "Flurl": {
+            "System.Configuration.ConfigurationManager": {
               "target": "Package",
-              "version": "[3.0.7, )"
-            },
-            "Flurl.Http": {
-              "target": "Package",
-              "version": "[3.2.4, )"
+              "version": "[8.0.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

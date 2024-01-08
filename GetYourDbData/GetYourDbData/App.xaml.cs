@@ -6,10 +6,24 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace GetYourDbData {
+namespace GetYourDbData
+{
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application {
+    public partial class App : Application
+    {
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            MainWindow wnd = new MainWindow();
+            wnd.DataContext = new SqlViewModel()
+            {
+                Title = "GetYourDbData",
+                DatabaseName = "",
+                TableName = ""
+            };
+
+            wnd.Show();
+        }
     }
 }

@@ -1,37 +1,33 @@
-﻿using System.Collections.ObjectModel;
-using System.Linq;
-using System.Windows;
-using System.Windows.Controls;
+﻿using System.Windows;
+using Microsoft.Win32;
+using System.IO;
 
-namespace GetYourDbData {
+namespace GetYourDbData
+{
     public partial class MainWindow : Window {
-        public ObservableCollection<string> EnteredTableNames { get; set; }
 
         public MainWindow() {
             InitializeComponent();
-            DataContext = this;
-
-            EnteredTableNames = new ObservableCollection<string>();
-        }
-        private void tableNameTextBox_KeyUp(object sender, System.Windows.Input.KeyEventArgs e) {
-            if (e.Key == System.Windows.Input.Key.Enter) {
-                string newEntry = tableNameTextBox.Text.Trim();
-                if (!string.IsNullOrWhiteSpace(newEntry) && !EnteredTableNames.Contains(newEntry)) {
-                    EnteredTableNames.Add(newEntry);
-                    tableNameListBox.Visibility = Visibility.Visible;
-                }
-
-                tableNameTextBox.Text = "";
-                tableNameListBox.ItemsSource = EnteredTableNames;
-            }
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e) {
-            tableNameTextBox.Focus();
+            dbNameTextBox.Focus();
         }
-        private void CopyConString(object sender, RoutedEventArgs e) {
-            string textToCopy = "Hello, this text will be copied to the clipboard!";
-            Clipboard.SetText(textToCopy);
+        private void CopySqlScript(object sender, RoutedEventArgs e) {
+            // Kopiert das SQL-Skript in die Zwischenablage, sofern es ein Skript gibt.
+            if (sqlOutput.Text != "") Clipboard.SetText(sqlOutput.Text);
+        }
+
+        // Ermöglicht das Auswählen des Speicherorts und Speichern.
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            var dlg = new SaveFileDialog();
+            dlg.Filter = "*.sql|sql";
+            dlg.Title = "sqlQuerySpeichern";
+            if (dlg.ShowDialog() == true)
+            {
+                File.WriteAllText(dlg.FileName, sqlOutput.Text);
+            }
         }
     }
 }
